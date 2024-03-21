@@ -1,0 +1,7 @@
+spring:
+    application:
+        name: gazzsha.currenttimemvc
+server:
+    port: 8189
+    servlet:
+        context-path: /api
