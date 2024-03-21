@@ -46,7 +46,8 @@ MVC представляет собой способ разработки с и�
 простой реализации и не подразумевает большую нагрузку.
 
 Теория взята отсюда:
-https://docs.spring.io/spring-framework/reference/web/webflux.html
+
+[https://docs.spring.io/spring-framework/reference/web/webflux.html](https://docs.spring.io/spring-framework/reference/web/webflux/new-framework.html)
 
 https://habr.com/ru/articles/565752/
 
