@@ -11,7 +11,7 @@ import java.time.format.DateTimeFormatter;
 @Service
 public class DateService {
 
-    final static public String DATE_FORMAT = "dd.MM.yyyy";
+    final static public String DATE_FORMAT = "yyyy-MM-dd";
     final static public String TIME_FORMAT = "HH:mm:ss";
     final static public String TIME_ZONE = "Europe/Moscow";
 

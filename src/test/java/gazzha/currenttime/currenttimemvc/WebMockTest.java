@@ -73,12 +73,14 @@ public class WebMockTest {
 
     @Test()
     void testVerifyingHTTPRequestMatching() throws Exception {
+        when(service.getCurrentDate()).thenReturn(getCurrentMessage());
         mockMvc.perform(get("/time")
                         .contentType("application/json"))
                 .andExpect(status().isOk());
         verify(service).getCurrentDate();
         verify(service,times(1)).getCurrentDate();
     }
+
 
     private Message getCurrentTimeZone() {
         return new Message("", "", currentTimeZone);

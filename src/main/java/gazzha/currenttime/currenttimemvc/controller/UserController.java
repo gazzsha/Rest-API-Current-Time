@@ -20,7 +20,7 @@ public class UserController {
 
     DateService dateService;
 
-    @GetMapping(value = GET_TIME, produces =Оф   MediaType.APPLICATION_JSON_VALUE)
+    @GetMapping(value = GET_TIME, produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<?> getCurrentTime() {
         Message messageDto = dateService.getCurrentDate();
         return ResponseEntity.ok().body(messageDto);
